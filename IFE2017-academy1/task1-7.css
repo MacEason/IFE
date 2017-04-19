@@ -1,0 +1,110 @@
+/* 
+* @Author: anchen
+* @Date:   2017-04-06 11:43:33
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-04-12 18:43:00
+*/
+*{margin: 0;padding: 0;}
+.head{width: 1280px;height: 56px;margin: 0 auto;background-color: #fff; position: relative; }
+.logo{width: 123px;height: 56px;margin-left: 30px;background-image: url(images/task1-7/img1.png);float: left;}
+.nav{width: 470px;height: 56px;float: right;position: absolute;right: 130px;}
+.nav li{display: inline;width: 94px;height: 56px;text-align: center;line-height: 56px;float: right;font-size: 13px;}
+.nav a{text-decoration: none;color: black;}
+.nav a:hover{color:red;border-bottom: 1px solid red;}
+.login_img{width: 14px;height:17px;margin-top: 19px;float: right;margin-right: 100px;background-image: url(images/task1-7/img2.png);}
+.login{width:50px;height: 56px;float: right;line-height: 56px;position: absolute;right: 48px; font-size: 14px; }
+.login a{text-decoration: none;color: red;}
+.section_one{width: 1280px;height: 691px;background-image: url(images/task1-7/img3.png);margin:0 auto;position: relative;}
+.content{width: 460px;height: 270px;position: absolute;left: 115px;top:225px;}
+.content p{font-family: "Microsoft YaHei";color: #fff;}
+.time{font-size: 60px;margin-bottom: 20px;}
+.new{font-size: 21px;margin-bottom: 60px;}
+.start{width: 335px;height: 60px;line-height: 60px;text-align: center;background-color: #e74f4d;}
+.start a{text-decoration: none;color: #fff;}
+.intro{width: 1280px;height: 250px;background-image: url(images/task1-7/img4.png);margin:0 auto;}
+.about{width: 1280px;height: 360px;margin:0 auto;background-image: url(images/task1-7/img5.png);margin:0 auto;position: relative;}
+.about p{font-size: 54px;font-family: "SimHei";color: #a1a1a1;width: 900px;height: 54px;position: absolute;left:217px;top: 229px;}
+.city{width: 1280px;height: 341px;margin:0 auto;background-image: url(images/task1-7/img6.png);position: relative;}
+.city1{font-size: 21px;font-family: "Microsoft YaHei";text-align: center;color: #fff;padding-top: 53px;}
+.city2{font-size: 12px;font-family: "Microsoft YaHei";text-align: center;color: #fff;padding-top: 23px;}
+.selectcity{width: 1030px;height: 36px;margin:0 auto;position: absolute;top: 170px;left: 126px;}
+.select1{width: 238px;height: 36px;background-color: #fff;font-size: 12px;line-height: 36px;position: relative;}
+.select1:hover{border: 1px solid red;}
+.select1:hover>.menu1{display: block;}
+.menu1{width: 237px;overflow: auto;display: none;height: 72px;border: 1px solid black;position: absolute;top:36px;left:0;color: #fff;font-size: 14px;background-color: #ccc;}
+.menu1 li:hover{background-color: red;}
+span{display: none;}
+.menu1 li:hover span{display:inline;}
+.select1 p {color: #ccc;margin-left: 10px;}
+.select2{width: 238px;height: 36px;position: absolute;background-color: #fff;font-size: 12px;line-height: 36px;left:258px;top:0;}
+.select2:hover{border: 1px solid red;}
+.select2:hover>.menu2{display: block;}
+.menu2{width: 237px;overflow: auto;display: none;height: 72px;border: 1px solid black;position: absolute;top:36px;left:0;color: #fff;font-size: 14px;background-color: #ccc;}
+.menu2 li:hover{background-color: red;}
+span{display: none;}
+.menu2 li:hover span{display:inline;}
+.select2 p {color: #ccc;margin-left: 10px;}
+.select3{width: 238px;height: 36px;position: absolute;background-color: #fff;font-size: 12px;line-height: 36px;left:516px;top:0;}
+.select3:hover{border: 1px solid red;}
+.select3:hover>.menu3{display: block;}
+.menu3{width: 237px;overflow: auto;display: none;height: 72px;border: 1px solid black;position: absolute;top:36px;left:0;color: #fff;font-size: 14px;background-color: #ccc;}
+.menu3 li:hover{background-color: red;}
+span{display: none;}
+.menu3 li:hover span{display:inline;}
+.select3 p {color: #ccc;margin-left: 10px;}
+.search{position: absolute;top:0;left:764px;}
+.search button{background-color: #be4e48;font-size: 18px;width: 238px;height: 36px;border-width: 0;color: #fff;}
+.exhibition{width: 1280px;height: 604px;margin:0 auto;background-color: #f7f7f7;position: relative;}
+.ex1{height: 390px;width: 219px;position: absolute;top: 112px;left:156px;}
+.ex1_img{background-color: #fff;}
+.ex1_img img{padding: 10px;}
+.ex1 p{text-align: center;margin-top: 10px;font-size: 14px;font-family: "SimHei";}
+.ex2{height: 390px;width: 219px;position: absolute;top: 112px;left:411px;}
+.ex2_img{background-color: #fff;position: top:53px;}
+.ex2_img img{padding: 10px;}
+.ex2 p{text-align: center;margin-bottom: 10px;font-size: 14px;font-family: "SimHei";}
+.ex3{height: 390px;width: 219px;position: absolute;top: 112px;left:666px;}
+.ex3_img{background-color: #fff;}
+.ex3_img img{padding: 10px;}
+.ex3 p{text-align: center;margin-top: 10px;font-size: 14px;font-family: "SimHei";}
+.ex4{height: 390px;width: 219px;position: absolute;top: 112px;left:921px;}
+.ex4_img{background-color: #fff;}
+.ex4_img img{padding: 10px;}
+.ex4 p{text-align: center;margin-top: 10px;font-size: 14px;font-family: "SimHei";}
+.newworld{width: 1280px;height: 566px;margin:0 auto;position: relative;}
+#new{position: absolute; top: 131px;left:241px;}
+.newworld_left{font-family: "SimHei";text-align: center;width: 851px;height: 566px;background-image: url(images/task1-7/img11.png);font-size: 21px;color: #fff;float: left;}
+.newworld_right{float: right;height: 566px;background-color: #fff;width: 429px;position: relative;}
+.rightcontent{position:absolute;top: 235px;width: 288px;left: 72px;text-align: center;font-family: "SimSun";}
+.rightcontent span{color: red;display: inline;}
+.rightcontent p{font-size: 12px;margin-bottom:20px; }
+#content{font-size: 12px;color: #ccc;}
+.newbtn{width: 107px;height: 35px;background-color: #fff;border: 1px solid red;color: red;font-family: "Microsoft Hei";font-size: 12px;margin:0 auto;}
+.newage{width: 1280px;height: 521px;margin:0 auto;position: relative;}
+.newage1{float: left;background-color:#e74f4d;height: 521px;width: 426px;text-align: center;font-family:"SimHei";font-size: 21px;color: #fff; }
+.newage1cont{position:absolute;top:172px;left:129px;}
+.newage1 button{margin-left: 128px;width: 107px;height: 35px;background-color: #e74f4d;border: 1px solid white;color: white;font-family: "Microsoft Hei";font-size: 12px;margin:0 auto;}
+.newage2{float: left;background-color:#fff;height: 521px;width: 424px;text-align: center;font-family:"SimHei";font-size: 21px;color: #000; position: absolute;left:426px;}
+.newage2cont{position:absolute;top:172px;left:129px;}
+.newage2 button{margin-left: 128px;width: 107px;height: 35px;background-color: #fff;border: 1px solid #e74f4d;color: #e74f4d;font-family: "Microsoft Hei";font-size: 12px;margin:0 auto;}
+.newage3{float: right;width: 430px;height: 521px;background-image: url(images/task1-7/img13.png);}
+.volunteer{height: 749px;width: 1280px;margin:0 auto;background-color: #fff;position: relative;}
+.v1{font-family: "SimHei";text-align: center;margin-bottom: 10px;position: absolute;top:118px;left:430px;}
+.volunteer span{color: #e74f4d;display: inline;}
+.v2{font-family: "SimHei";font-size: 14px;position: absolute;width: 290px;height: 224px;left: 138px;top: 304px;}
+.v2 p{margin-bottom: 15px;}
+.v3{height: 224px;position: absolute;top: 304px;left: 500px;width: 639px;}
+.t1,.t2,.t3,.t4{font-family: "SimSun";font-size: 12px;color: #231815;height: 41px;line-height: 41px;background-color:#ededef; border-width: 0;width: 311px;}
+.t1{position:absolute;top:0;left: 0;}
+.t2{position: absolute;top:0;right:0;}
+.t3{position: absolute;top:54px;left: 0;}
+.t4{position: absolute;top:54px;right: 0;}
+.t5{width: 639px;height: 122px;position: absolute;top: 108px;background-color:#ededef; border-width: 0;color: #231815;}
+.v3 button{width: 639px;height: 41px;text-align: center;line-height: 41px;color: #231815;position: absolute;top:240px;border-width:0 ;}
+.end{width: 1280px;height: 358px;background-color: #32353e;margin:0 auto;position: relative;}
+.e1{position: absolute;top:90px;left: 405px;color: #fff;text-align: center;}
+.e1 p{margin-bottom: 10px;}
+.e2{position: absolute;top:180px;left:385px;}
+.e2text{width:430px;height: 41px;background-color:#fff;color: #ccc;border-width:0;  }
+.e2btn{color: #fff;background-color: 707278;border-width: 0;width: 80px;height: 41px;line-height: 41px;text-align: center;}
+.e3{position: absolute;left: 550px;top:248px;}
