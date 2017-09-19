@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>IFE JavaScript Task 04</title>
+        <style type="text/css">
+            #box{
+                height: 200px;
+                width: 400px;
+                border: 1px solid red;
+                position: absolute;
+                top:50%;
+                left: 50%;
+                margin-top: -100px;
+                margin-left: -200px;
+            }
+            #numtxt{
+                height: 30px;
+                width: 150px;
+                margin-top: 30px;
+                margin-left: 125px;
+            }
+            .control{
+                margin: 0 auto;
+                width:300px; 
+            }
+            #leftIn,#leftOut,#rightIn,#rightOut{
+                border: 1px solid orange;
+                border-radius: 5px;
+                margin-left: 10px;
+                margin-top: 10px;
+            }
+            li{
+                display:inline-block;
+                background-color: #cd4a48;
+                color: #f3f6f7;
+                font-size:20px;
+                text-align:center;
+                padding:5px;
+                margin:5px;
+                cursor:pointer;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <div id = "box">
+          <input type="text" id = "numtxt" name = "Num" placeholder = "请输入您想插入的数字"><br>
+          <div class="control">
+              <button type="button" id = "leftIn">左侧入</button>
+              <button type="button" id = "rightIn">右侧入</button>
+              <button type="button" id = "leftOut">左侧出</button>
+              <button type="button" id = "rightOut">右侧出</button>     
+          </div>
+          <ul id = "show"></ul>          
+        </div>
+        <script type="text/javascript" src="js-task4.js"></script>
+    </body>
+</html>
