@@ -1,0 +1,96 @@
+/* 
+* @Author: anchen
+* @Date:   2017-12-20 19:12:46
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-12-24 19:21:53
+*/
+.warp{
+    background-image: url(img/image.jpg);
+    width: 450px;
+    height: 250px;
+    background-size:450px 250px;
+    margin: 200px auto;
+    position: relative;
+}
+.content{
+    width: 370px;
+    height: 210px;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    visibility: hidden;
+}
+.content::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height:0;
+    border: 3px solid #fff;
+    border-width: 0 3px;
+    overflow: hidden;
+    box-sizing:border-box;
+    visibility: hidden;
+    transition:all 0.8s;
+}
+.content::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 0;
+    height:100%;
+    border: 3px solid #fff;
+    border-width: 3px 0;
+    overflow: hidden;
+    box-sizing:border-box;
+    visibility: hidden;
+    transition:all 0.8s;
+}
+.warp:hover{
+    opacity: 0.7;
+}
+.warp:hover .content{
+    visibility: visible;
+}
+.warp:hover .content::before{
+    visibility: visible;
+    top: 0;
+    height: 100%;
+} 
+.warp:hover .content::after{
+    visibility: visible;
+    left: 0;
+    width: 100%;
+}
+.title{
+    margin:60px auto 20px auto;
+    width: 85%;
+    background-image:-webkit-linear-gradient(left,#3498db, #f47920 10%, #d71345 20%, #f7acbc 30%, #ffd400 40%, #3498db 50%, #f47920 60%, #d71345 70%, #f7acbc 80%, #ffd400 90%, #3498db);
+    background-size:200% 100%;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    -webkit-animation:streamerGradient 4s infinite linear;
+}
+
+@keyframes streamerGradient{
+    from{background-position:0% 0%}
+    to{background-position:-100% 0%}
+}
+
+.signUp{
+    width:20%;
+    margin:10px auto;
+    font-weight:bold;
+    -webkit-animation:changeColor 4s infinite linear;
+}
+
+@keyframes changeColor{
+    10% {color:#ff6699;} 
+    20% {color:#ffff00;}
+    30% {color:#ff6699;}
+    40% {color:#ffff00;}
+    60% {color:#ff6699;}
+    70% {color:#ffff00;}
+}
