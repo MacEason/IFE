@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>豆瓣（仿）</title>
+        <link rel="stylesheet" href="douban.css">
+    </head>
+    <body>
+        <div id = "head-nav">
+            <h1>
+                <a href="https://www.douban.com"></a>
+            </h1>
+            <div class = "search">
+                <form action="" method="get">
+                    <input type="text" maxlength="30" placeholder="书籍、电影、音乐、小组、小站、成员" autocomplete="off" name="srh">
+                    <span class="soso">
+                        <input type="submit" value = "搜索">
+                    </span>
+                </form>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li>
+                        <a class = "link-read" target="_blank" href="https://book.douban.com">豆瓣读书</a>
+                    </li>
+                    <li>
+                        <a class = "link-movie" target="_blank" href="https://movie.douban.com">豆瓣电影</a>
+                    </li>
+                    <li>
+                        <a class= "link-music" target="_blank" href="https://music.douban.com">豆瓣音乐</a>
+                    </li>
+                    <li>
+                        <a class = "link-group" target="_blank" href="https://www.douban.com/group/">豆瓣小组</a>
+                    </li>
+                    <li>
+                        <a class = "link-events" target="_blank" href="https://www.douban.com/location/">豆瓣同城</a>
+                    </li>
+                    <li>
+                        <a class = "link-fm" target="_blank" href="https://douban.fm">豆瓣FM</a>
+                    </li>
+                    <li>
+                        <a class = "link-time" target="_blank" href="https://www.douban.com/time/?dt_time_source=douban-web_anonymous_index_top_nav">豆瓣时间</a>
+                    </li>
+                    <li>
+                        <a class = "link-market" taget="_blank" href="https://market.douban.com?utm_campaign=anonymous_top_nav&utm_source=douba&utm_medium=pc_web">豆瓣市集</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="login">
+            <div class="warpper">
+                <div class="app">
+                    <p class="app-title">豆瓣5.0</p>
+                    <p class="app-slogan">我们的精神角落</p>
+                    <a class = "link-app" href="https://www.douban.com/doubanapp/app?channel=nimingye" class="lnk-app">下载豆瓣 App</a>
+                    <div class="app-qr"></div>
+                </div>
+                <div class="log-in">
+                    <form>
+                        <div class="account">
+                            <input class="inp" name="email-num" placeholder="邮箱/手机号" type="text">
+                        </div>
+                        <div class="password">
+                            <input class="form-password" name="form-password" type="text" placeholder="密码">
+                        </div>
+                        <div class="submit">
+                            <input type="button" name="btn-submit" value="登录豆瓣" class="btn-submit">
+                            <a class="reg" href="https://accounts.douban.com/register">注册账号</a>
+                        </div>
+                        <div class="form-action">
+                            <input class="remember" name="remeber" type="checkbox">记住我
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="hot">
+            <div class="main">
+                <h2>热点内容·····<span class="more">(<a href="https://www.douban.com/explore/" target="_self">更多</a>)</span></h2>
+                <div class="main-left">
+                    <ul>
+                        <li>
+                            <div class="pic">
+                                <a href="https://www.douban.com/photos/album/1653562414/">
+                                    <img src="https://img1.doubanio.com/view/photo/albumcover/public/p2502044598.jpg" alt="">
+                                </a>
+                                <a href="https://www.douban.com/photos/album/1653562414/">北京最北，喇叭沟门秋色正浓。</a>
+                                <span class="num">39张照片</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pic">
+                                <a href="https://www.douban.com/photos/album/1653994286/">
+                                    <img src="https://img1.doubanio.com/view/photo/albumcover/public/p2503078518.jpg" alt="">
+                                </a>
+                            </div>
+                            <a href="https://www.douban.com/photos/album/1653994286/">圣安德鲁斯海边</a>
+                            <span class="num">24张照片</span>
+                        </li>
+                        <li>
+                            <div class="pic">
+                                <a href="https://www.douban.com/photos/album/1653907681/">
+                                    <img src="https://img3.doubanio.com/view/photo/albumcover/public/p2502892490.jpg">
+                                </a>
+                            </div>
+                            <a href="https://www.douban.com/photos/album/1653907681/">巴萨罗那</a>
+                            <span class="num">29张照片</span>
+                        </li>
+                        <li>
+                            <div class="pic">
+                                <a href="https://www.douban.com/photos/album/1653017321/">
+                                    <img src="https://img3.doubanio.com/view/photo/albumcover/public/p2500714030.jpg" alt="">
+                                </a>
+                            </div>
+                            <a href="https://www.douban.com/photos/album/1653017321/">人间小事</a>
+                            <span class="num">45张照片</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main-right">
+                    <ul>
+                        <li class="first">
+                            <div class="title">
+                                <a href="https://www.douban.com/note/642837961/">看了这些TVB艺员的辛酸遭遇，你还想做明星吗！</a>
+                            </div>
+                            <div class="author">白眉道长的日记</div>
+                            <p>很多人都羡慕演员这个职业，因为他们看到不少演员一不小心就成了明星，大红大紫，...</p>
+                        </li>
+                        <li>
+                            <a href="https://www.douban.com/note/642715801/">天一生水，咫尺城林－－一座现代园林的启示</a>
+                        </li>
+                        <li>
+                            <a href="https://site.douban.com/246422/widget/notes/17708623/note/642784800/">《猫和老鼠》曾“玩弄”的古典音乐</a>
+                        </li>
+                        <li>
+                            <a href="https://www.douban.com/note/643063844/">你无法参与Ta的过去，但重要的是此刻Ta在你身边 | 研究：如何听伴侣聊前任?</a>
+                        </li>
+                        <li>
+                            <a href="https://www.douban.com/note/643042916/">江湖救急丨比起头发的持久养护，先给我来一个DUANG的特效</a>
+                        </li>
+                        <li>
+                            <a href="https://www.douban.com/note/642995683/">中华首席美食网红苏东坡：对猪肉的弘扬及其一生</a>
+                        </li>
+                        <li>
+                            <a href="https://www.douban.com/note/642757731/">一千零一只西瓜的赌局</a>
+                        </li>
+                        <li>
+                            <a href="https://www.douban.com/note/643117158/">《银翼杀手2049》：生而为人的光荣与落寞，在这里都有</a>
+                        </li>
+                        <li>
+                            <a href="https://www.douban.com/note/642130294/">西行却仍在东</a>
+                        </li>
+                        <li>
+                            <a href="https://www.douban.com/note/643041239/">碎碎念之古怪的医学TIPS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="side">
+                <div class="advertise">
+                    <img src="img/photo.jpg" alt="">
+                </div>
+                <h2>热门话题······(<a href="/gallery/" target="_self">去话题广场</a> )</h2>
+                <ul>
+                    <li class="topic">
+                        <a href="https://www.douban.com/gallery/topic/%E4%BD%A0%E4%B8%BA%E4%BB%80%E4%B9%88%E5%96%9C%E6%AC%A2%E9%98%BF%E5%8A%A0%E8%8E%8E%C2%B7%E5%85%8B%E9%87%8C%E6%96%AF%E8%92%82/?from=hot_topic_anony_sns" class="topic-name">你为什么喜欢阿加莎·克里斯蒂</a>
+                        <span class="topic-title" style="color:#4cc15f;">[新]</span>
+                        <span class="topic-label">那一天我登上了东方快车 · 686人参与</span>
+                    </li>
+                    <li class="topic">
+                        <a href="https://www.douban.com/gallery/topic/%E7%BB%86%E6%80%9D%E6%9E%81%E6%81%90%E7%9A%84%E6%95%85%E4%BA%8B/?from=hot_topic_anony_sns" class="topic-name">细思极恐的故事</a>
+                        <span class="topic-label">万圣节来临 · 3312人参与</span>
+                    </li>
+                    <li class="topic">
+                        <a href="https://www.douban.com/gallery/topic/%E7%A7%91%E5%B9%BB%E5%8F%B2200%E5%91%A8%E5%B9%B4/?from=hot_topic_anony_sns" class="topic-name">科幻史200周年</a>
+                        <span class="topic-label">聊聊科幻文学与电影 · 2818人参与</span>
+                    </li>
+                    <li class="topic">
+                        <a href="https://www.douban.com/gallery/topic/%E4%BA%BA%E7%94%9F%E4%B8%AD%E6%9C%80%E5%B0%B4%E5%B0%AC%E7%9A%84%E4%B8%80%E4%BB%B6%E4%BA%8B/?from=hot_topic_anony_sns" class="topic-name">人生中最尴尬的一件事</a>
+                        <span class="topic-label">说出来让大家高兴高兴 · 7144人参与</span>
+                    </li>
+                    <li class="topic">
+                        <a href="https://www.douban.com/gallery/topic/%E5%8F%8C%E5%8D%81%E4%B8%80%E4%BB%80%E4%B9%88%E5%80%BC%E5%BE%97%E4%B9%B0/?from=hot_topic_anony_sns" class="topic-name">双十一什么值得买</a>
+                        <span class="topic-label">准备工作可以做起来了 · 19451人参与</span>
+                    </li>
+                    <li class="topic">
+                        <a href="https://www.douban.com/gallery/topic/%E6%88%91%E6%9C%80%E5%96%9C%E7%88%B1%E7%9A%84%E8%AF%BA%E5%A5%96%E4%BD%9C%E5%AE%B6/?from=hot_topic_anony_sns" class="topic-name">我最喜爱的诺奖作家</a>
+                        <span class="topic-label">豆友心中有杆秤 · 9142人参与</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="warpper-time">
+            <div class="wt">
+                <div class="sidetitle">
+                    <h2>
+                       <a href="/time">豆瓣时间</a> 
+                    </h2>
+                </div>
+                <div class="side-time">
+                    <h2>热门专栏······(<a href="/time?dt_time_source=douban-web_anonymous">更多</a>)</h2>
+                    <ul class="time-list">
+                        <li>
+                            <a class="time-pic" href="https://m.douban.com/time/column/77?dt_time_source=douban-web_anonymous">
+                                <img src="https://img1.doubanio.com/dae/niffler/niffler/images/8a67026e-ba13-11e7-9f54-0242ac110038.png" alt="">
+                            </a>
+                            <a class="time-title" href="https://m.douban.com/time/column/77?dt_time_source=douban-web_anonymous">民谣与台湾故事——胡德夫的音乐时间</a>
+                            <span class="type">音乐专栏</span>
+                        </li>
+                        <li>
+                            <a class="time-pic" href="https://m.douban.com/time/column/77?dt_time_source=douban-web_anonymous">
+                                <img src="https://img1.doubanio.com/dae/niffler/niffler/images/0f2c7af6-985e-11e7-bca2-0242ac11001b.png" alt="">
+                            </a>
+                            <a class="time-title" href="https://m.douban.com/time/column/77?dt_time_source=douban-web_anonymous">拍张好照片——10分钟搞定旅行摄影</a>
+                            <span class="type">音乐专栏</span>
+                        </li>
+                        <li>
+                            <a class="time-pic" href="https://m.douban.com/time/column/77?dt_time_source=douban-web_anonymous">
+                                <img src="https://img1.doubanio.com/dae/niffler/niffler/images/7bd08eba-0496-11e7-a4c9-0242ac110038.png" alt="">
+                            </a>
+                            <a class="time-title" href="https://m.douban.com/time/column/77?dt_time_source=douban-web_anonymous">白先勇细说红楼梦——从小说角度重解“红楼”</a>
+                            <span class="type">音乐专栏</span>
+                        </li>
+                        <li>
+                            <a class="time-pic" href="https://m.douban.com/time/column/77?dt_time_source=douban-web_anonymous">
+                                <img src="https://img1.doubanio.com/dae/niffler/niffler/images/abd3c3ec-922c-11e7-8a20-0242ac11000c.png" alt="">
+                            </a>
+                            <a class="time-title" href="https://m.douban.com/time/column/77?dt_time_source=douban-web_anonymous">控制力幻象——焦虑感背后的心理觉察</a>
+                            <span class="type">音乐专栏</span>
+                        </li>
+                        <li>
+                            <a class="time-pic" href="https://m.douban.com/time/column/77?dt_time_source=douban-web_anonymous">
+                                <img src="https://img1.doubanio.com/dae/niffler/niffler/images/acd0bdc0-9922-11e7-8e6d-0242ac11001a.png" alt="">
+                            </a>
+                            <a class="time-title" href="https://m.douban.com/time/column/77?dt_time_source=douban-web_anonymous">凤冠霞帔——古代女子的巅峰梦想</a>
+                            <span class="type">音乐专栏</span>
+                        </li>
+                        <li>
+                            <a class="time-pic" href="https://m.douban.com/time/column/77?dt_time_source=douban-web_anonymous">
+                                <img src="https://img3.doubanio.com/dae/niffler/niffler/images/6db31128-39dd-11e7-895e-0242ac110016.png" alt="">
+                            </a>
+                            <a class="time-title" href="https://m.douban.com/time/column/77?dt_time_source=douban-web_anonymous">歌词时光——姚谦写词课</a>
+                            <span class="type">音乐专栏</span>
+                        </li>
+                        <li>
+                            <a class="time-pic" href="https://m.douban.com/time/column/77?dt_time_source=douban-web_anonymous">
+                                <img src="https://img1.doubanio.com/dae/niffler/niffler/images/416add14-0254-11e7-8292-0242ac11002c.jpg" alt="">
+                            </a>
+                            <a class="time-title" href="https://m.douban.com/time/column/77?dt_time_source=douban-web_anonymous">醒来——北岛和朋友们的诗歌课</a>
+                            <span class="type">音乐专栏</span>
+                        </li>
+                        <li>
+                            <a class="time-pic" href="https://m.douban.com/time/column/77?dt_time_source=douban-web_anonymous">
+                                <img src="https://img3.doubanio.com/dae/niffler/niffler/images/2621f522-50ad-11e7-a3d6-0242ac110041.png" alt="">
+                            </a>
+                            <a class="time-title" href="https://m.douban.com/time/column/77?dt_time_source=douban-web_anonymous">拍张好照片——跟七七学生活摄影</a>
+                            <span class="type">音乐专栏</span>
+                        </li>
+                        <li>
+                            <a class="time-pic" href="https://m.douban.com/time/column/77?dt_time_source=douban-web_anonymous">
+                                <img src="https://img3.doubanio.com/dae/niffler/niffler/images/f25a3922-97a4-11e7-907c-0242ac110025.png" alt="">
+                            </a>
+                            <a class="time-title" href="https://m.douban.com/time/column/77?dt_time_source=douban-web_anonymous">笔落惊风雨——你不可不知的中国三大名画</a>
+                            <span class="type">音乐专栏</span>
+                        </li>
+                        <li>
+                            <a class="time-pic" href="https://m.douban.com/time/column/77?dt_time_source=douban-web_anonymous">
+                                <img src="https://img1.doubanio.com/dae/niffler/niffler/images/54d34448-1dea-11e7-afa9-0242ac11002c.jpg" alt="">
+                            </a>
+                            <a class="time-title" href="https://m.douban.com/time/column/77?dt_time_source=douban-web_anonymous">古今——杨照史记百讲</a>
+                            <span class="type">音乐专栏</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="douban-movie">
+            <div class="movie-warpper">
+                <div class="movie-nav">
+                    <h2 class="section-title">
+                        <a href="https://movie.douban.com">电影</a>
+                    </h2>
+                    <ul>
+                        <li>
+                            <a href="https://movie.douban.com/nowplaying/">影讯&购票</a>
+                        </li>
+                        <li>
+                            <a href="https://movie.douban.com/explore">选电影</a>
+                        </li>
+                        <li>
+                            <a href="https://movie.douban.com/tv/">电视剧</a>
+                        </li>
+                        <li> 
+                            <a href="https://movie.douban.com/chart">排行榜</a>
+                        </li>
+                        <li>
+                            <a href="https://movie.douban.com/tag/">分类</a>
+                        </li>
+                        <li>
+                            <a href="https://movie.douban.com/tag/">影评</a>
+                        </li>
+                        <li>
+                            <a href="https://movie.douban.com/tag/">预告片</a>
+                        </li>
+                        <li>
+                            <a href="https://movie.douban.com/tag/">问答</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="movie-main">
+                    <h2>
+                        正在热映······
+                        <span class="pl">
+                            (<a href="https://movie.douban.com/showtimes/">更多</a>)
+                        </span>
+                    </h2>
+                    <div class="movie-list">
+                        <ul>
+                            <li>
+                                <a class="movie-pic" href="https://movie.douban.com/subject/25821634/">
+                                    <img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2500451074.jpg" alt="">
+                                </a>
+                                <span class="name"><a href="https://movie.douban.com/subject/25821634/">雷神3：诸神黄...</a></span>
+                                <div class="rate">
+                                    <span class="star"></span>
+                                    <i>7.6</i>
+                                </div>
+                                <a class="ticket" href="https://movie.douban.com/subject/25821634/cinema/">选座购票</a>
+                            </li>
+                            <li>
+                                <a class="movie-pic" href="https://movie.douban.com/subject/25821634/">
+                                    <img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2500451074.jpg" alt="">
+                                </a>
+                                <span class="name"><a href="https://movie.douban.com/subject/25821634/">雷神3：诸神黄...</a></span>
+                                <div class="rate">
+                                    <span class="star"></span>
+                                    <i>7.6</i>
+                                </div>
+                                <a class="ticket" href="https://movie.douban.com/subject/25821634/cinema/">选座购票</a>
+                            </li>
+                            <li>
+                                <a class="movie-pic" href="https://movie.douban.com/subject/25821634/">
+                                    <img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2501769525.jpg" alt="">
+                                </a>
+                                <span class="name"><a href="https://movie.douban.com/subject/25821634/">雷神3：诸神黄...</a></span>
+                                <div class="rate">
+                                    <span class="star"></span>
+                                    <i>7.6</i>
+                                </div>
+                                <a class="ticket" href="https://movie.douban.com/subject/25821634/cinema/">选座购票</a>
+                            </li>
+                            <li>
+                                <a class="movie-pic" href="https://movie.douban.com/subject/25821634/">
+                                    <img src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2502474177.jpg" alt="">
+                                </a>
+                                <span class="name"><a href="https://movie.douban.com/subject/25821634/">雷神3：诸神黄...</a></span>
+                                <div class="rate">
+                                    <span class="star"></span>
+                                    <i>7.6</i>
+                                </div>
+                                <a class="ticket" href="https://movie.douban.com/subject/25821634/cinema/">选座购票</a>
+                            </li>
+                            <li>
+                                <a class="movie-pic" href="https://movie.douban.com/subject/25821634/">
+                                    <img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2499792043.jpg" alt="">
+                                </a>
+                                <span class="name"><a href="https://movie.douban.com/subject/25821634/">雷神3：诸神黄...</a></span>
+                                <div class="rate">
+                                    <span class="star"></span>
+                                    <i>7.6</i>
+                                </div>
+                                <a class="ticket" href="https://movie.douban.com/subject/25821634/cinema/">选座购票</a>
+                            </li>
+                            <li>
+                                <a class="movie-pic" href="https://movie.douban.com/subject/25821634/">
+                                    <img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2500451074.jpg" alt="">
+                                </a>
+                                <span class="name"><a href="https://movie.douban.com/subject/25821634/">雷神3：诸神黄...</a></span>
+                                <div class="rate">
+                                    <span class="star"></span>
+                                    <i>7.6</i>
+                                </div>
+                                <a class="ticket" href="https://movie.douban.com/subject/25821634/cinema/">选座购票</a>
+                            </li>
+                            <li>
+                                <a class="movie-pic" href="https://movie.douban.com/subject/25821634/">
+                                    <img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2502325892.jpg" alt="">
+                                </a>
+                                <span class="name"><a href="https://movie.douban.com/subject/25821634/">雷神3：诸神黄...</a></span>
+                                <div class="rate">
+                                    <span class="star"></span>
+                                    <i>7.6</i>
+                                </div>
+                                <a class="ticket" href="https://movie.douban.com/subject/25821634/cinema/">选座购票</a>
+                            </li>
+                            <li>
+                                <a class="movie-pic" href="https://movie.douban.com/subject/25821634/">
+                                    <img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2502311890.jpg" alt="">
+                                </a>
+                                <span class="name"><a href="https://movie.douban.com/subject/25821634/">雷神3：诸神黄...</a></span>
+                                <div class="rate">
+                                    <span class="star"></span>
+                                    <i>7.6</i>
+                                </div>
+                                <a class="ticket" href="https://movie.douban.com/subject/25821634/cinema/">选座购票</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="movie-type">
+                    <div class="mod">
+                        <h2>
+                            影片分类······<span>(<a href="https://movie.douban.com/tag/?view=type">更多</a>)</span>
+                        </h2>
+                        <div class="type-list">
+                            <ul>
+                                <li>
+                                    <a href="https://movie.douban.com/tag/爱情">爱情</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/tag/爱情">喜剧</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/tag/爱情">剧情</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/tag/爱情">动画</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/tag/爱情">惊悚</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/tag/爱情">科幻</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/tag/爱情">动作</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/tag/爱情">悬疑</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/tag/爱情">青春</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/tag/爱情">犯罪</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/tag/爱情">文艺</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/tag/爱情">搞笑</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/tag/爱情">纪录片</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/tag/爱情">励志</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/tag/爱情">战争</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/tag/爱情">恐怖</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/tag/爱情">爱情</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/tag/爱情">爱情</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/tag/爱情">爱情</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/tag/爱情">爱情</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/tag/爱情">爱情</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/tag/爱情">爱情</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/tag/爱情">爱情</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/tag/爱情">爱情</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/tag/爱情">爱情</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/tag/爱情">爱情</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/tag/爱情">爱情</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/tag/爱情">爱情</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mod">
+                        <h2>
+                            近期热门······
+                        <span class="pl">
+                            (<a href="https://movie.douban.com/showtimes/">更多</a>)
+                        </span>
+                        </h2>
+                        <div class="movie-charts">
+                            <ol>
+                                <li>
+                                    <a href="https://movie.douban.com/subject/3604148/">小丑回魂</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/subject/3604148/">小丑回魂</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/subject/3604148/">小丑回魂</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/subject/3604148/">小丑回魂</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/subject/3604148/">小丑回魂</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/subject/3604148/">小丑回魂</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/subject/3604148/">小丑回魂</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/subject/3604148/">小丑回魂</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/subject/3604148/">小丑回魂</a>
+                                </li>
+                                <li>
+                                    <a href="https://movie.douban.com/subject/3604148/">小丑回魂</a>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
